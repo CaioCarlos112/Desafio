@@ -1,5 +1,5 @@
 mongo:  
-  image: mongo:3.0.4  
+  image: mongo:3.0.4 
   ports:  
    - "27018:27018"  
   volumes:  
@@ -11,6 +11,6 @@ application:
    - "8080:8080"  
    - "5858:5858"  
   volumes:  
-   - C:\Node\funcionarios
+   - 'C:\Node\funcionarios\app:\usr\src\app'
   links:  
    - mongo  
