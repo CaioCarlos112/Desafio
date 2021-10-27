@@ -1,5 +1,5 @@
 const mongoClient = require("mongodb").MongoClient;
-mongoClient.connect("mongodb://localhost")
+mongoClient.connect("mongodb://mongo:27017")
             .then(conn => global.conn = conn.db("desafio"))
             .catch(err => console.log(err))
  
