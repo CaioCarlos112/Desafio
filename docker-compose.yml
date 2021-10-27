@@ -11,6 +11,6 @@ application:
    - "8080:8080"  
    - "5858:5858"  
   volumes:  
-   - 'C:\Node\funcionarios\app:\usr\src\app'
+   - 'C:\Node\funcionarios\app:/usr/src/app'
   links:  
    - mongo  
