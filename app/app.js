@@ -6,7 +6,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var funcionariosRouter = require('../routes/funcionarios');
+var funcionariosRouter = require('./routes/funcionarios.js');
 
 var app = express();
 
