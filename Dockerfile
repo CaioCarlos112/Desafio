@@ -7,7 +7,7 @@ FROM node:latest
  COPY app/package.json /usr/src/app/package.json  
  RUN npm install -g  
    
- #EXPOSE 8080  
+ EXPOSE 3000 
  #EXPOSE 5858  
    
  CMD ["npm", "start"]  
